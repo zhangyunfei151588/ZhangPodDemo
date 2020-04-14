@@ -1,0 +1,16 @@
+PODS:
+  - ZYFPodDemo (0.1.0)
+
+DEPENDENCIES:
+  - ZYFPodDemo (from `../`)
+
+EXTERNAL SOURCES:
+  ZYFPodDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYFPodDemo: be013961360d293cf2583e8a76d04416f847b0f2
+
+PODFILE CHECKSUM: 1c2c1245a7f8b1545534c17bfb01eaa8a2cc0d01
+
+COCOAPODS: 1.9.0

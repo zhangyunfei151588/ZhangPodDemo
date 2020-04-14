@@ -1,0 +1,6 @@
+framework module ZYFPodDemo {
+  umbrella header "ZYFPodDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
