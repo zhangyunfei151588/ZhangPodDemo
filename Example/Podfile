@@ -1,10 +1,11 @@
 use_frameworks!
 
+source 'https://github.com/zhangyunfei151588/ZhangRepo.git'
 platform :ios, '8.0'
 
 target 'ZYFPodDemo_Example' do
-  pod 'ZYFPodDemo', :path => '../'
-
+#  pod 'ZYFPodDemo', :path => '../'
+     pod 'ZYFPodDemo'
   target 'ZYFPodDemo_Tests' do
     inherit! :search_paths
 
