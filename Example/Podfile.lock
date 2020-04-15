@@ -2,15 +2,15 @@ PODS:
   - ZYFPodDemo (0.1.0)
 
 DEPENDENCIES:
-  - ZYFPodDemo
+  - ZYFPodDemo (from `../`)
 
-SPEC REPOS:
-  https://github.com/zhangyunfei151588/ZhangRepo:
-    - ZYFPodDemo
+EXTERNAL SOURCES:
+  ZYFPodDemo:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ZYFPodDemo: 3e0518c22d27a53038d77beb0550cf981d76e583
+  ZYFPodDemo: e9235d3ad24de0479587636f2e1374e498d84567
 
-PODFILE CHECKSUM: 78c45de4ce99ba19d09d1261af6c06e96a8ee1eb
+PODFILE CHECKSUM: 25fd5de4893be2f54b78ae6c6d9137876af24f01
 
 COCOAPODS: 1.9.0
