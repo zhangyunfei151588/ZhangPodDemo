@@ -30,8 +30,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ZYFPodDemo/Classes/**/*'
-  
+#  s.source_files = 'ZYFPodDemo/Classes/**/*'
+  s.subspec 'ZYFPodDemo' do |ss|
+      ss.source_files = 'ZYFPodDemo/Classes/*.{h,m}'
+      ss.subspec 'home' do |sss|
+        sss.source_files = 'ZYFPodDemo/Classes/home/*.{h,m}'
+      end
+    end
+
+
    s.resource_bundles = {
      'ZYFPodDemo' => ['ZYFPodDemo/Assets/*.png']
    }

@@ -18,10 +18,21 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYFPodDemo/Classes/**/*",
   "resource_bundles": {
     "ZYFPodDemo": [
       "ZYFPodDemo/Assets/*.png"
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "ZYFPodDemo",
+      "source_files": "ZYFPodDemo/Classes/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "home",
+          "source_files": "ZYFPodDemo/Classes/home/*.{h,m}"
+        }
+      ]
+    }
+  ]
 }

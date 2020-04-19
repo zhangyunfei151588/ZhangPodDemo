@@ -1,5 +1,9 @@
 PODS:
-  - ZYFPodDemo (0.1.0)
+  - ZYFPodDemo (0.1.0):
+    - ZYFPodDemo/ZYFPodDemo (= 0.1.0)
+  - ZYFPodDemo/ZYFPodDemo (0.1.0):
+    - ZYFPodDemo/ZYFPodDemo/home (= 0.1.0)
+  - ZYFPodDemo/ZYFPodDemo/home (0.1.0)
 
 DEPENDENCIES:
   - ZYFPodDemo (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZYFPodDemo: fb40b0a37c0ed0840999bd8369318a979dba9265
+  ZYFPodDemo: ba27f24c4ca9b0bc24469203358b945a783a1d1b
 
 PODFILE CHECKSUM: 25fd5de4893be2f54b78ae6c6d9137876af24f01
 
