@@ -7,7 +7,7 @@
 //
 
 #import "XHAppDelegate.h"
-
+#import <ZYFPodDemo/HomePageViewController.h>
 
 @implementation XHAppDelegate
 
@@ -15,7 +15,11 @@
 {
     // Override point for customization after application launch.
     
+    HomePageViewController *vc = [HomePageViewController new];
+    self.window.rootViewController = vc;
     
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
     return YES;
 }
 

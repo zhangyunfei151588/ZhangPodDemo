@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HomePageViewController.h"
 
 FOUNDATION_EXPORT double ZYFPodDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZYFPodDemoVersionString[];

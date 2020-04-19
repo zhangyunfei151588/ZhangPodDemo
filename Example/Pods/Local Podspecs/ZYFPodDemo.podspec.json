@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ZYFPodDemo/Classes/**/*"
+  "source_files": "ZYFPodDemo/Classes/**/*",
+  "resource_bundles": {
+    "ZYFPodDemo": [
+      "ZYFPodDemo/Assets/*.png"
+    ]
+  }
 }
